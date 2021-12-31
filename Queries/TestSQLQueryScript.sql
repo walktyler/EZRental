@@ -222,7 +222,7 @@ SELECT 1 FROM DUAL;
 CALL NEW_DISCOUNT('AAA9970054', 'AAA Membership Discount - 25% off base rate plus 10% donated for breast cancer research.');
 CALL NEW_DISCOUNT('GOV8756921', 'Government Employee Discount - 30% off base rate');
 CALL NEW_DISCOUNT('STA3415632', 'State Employee Discount for 25% off base rate');
-CALL NEW_DISCOUNT('VET2055179', 'Veteran Discount 35% off base rate Plus 10% donation to veteran’s family fund.');
+CALL NEW_DISCOUNT('VET2055179', 'Veteran Discount 35% off base rate Plus 10% donation to veteranÂ’s family fund.');
 
 CALL NEW_RETAILCUST('1', 4, 1);
 CALL NEW_RETAILCUST('3', 2, 2);
@@ -355,9 +355,9 @@ SELECT 1 FROM DUAL;
 INSERT INTO RENTALINSURANCEOPTION VALUES (1, 'No insurance. Opt-out.', 0.00);
 INSERT INTO RENTALINSURANCEOPTION VALUES (2, 'Collision Damage Waiver Max - Agency will pay for damage, lost or stolen vehicle.', 49.99);
 INSERT INTO RENTALINSURANCEOPTION VALUES (3, 'Collision Damage Waiver 3000 - Agency will pay for first $3,000 of loss or damage, renter pays all loss & damage after $3,000.', 39.99);
-INSERT INTO RENTALINSURANCEOPTION VALUES (4, 'Lability Extended Protection – Agency provides renter with third party liability protection up to $1 Million per accident for bodily injury or death or property damage
+INSERT INTO RENTALINSURANCEOPTION VALUES (4, 'Lability Extended Protection Â– Agency provides renter with third party liability protection up to $1 Million per accident for bodily injury or death or property damage
 to others.', 89.99);
-INSERT INTO RENTALINSURANCEOPTION VALUES (5, 'Roadside Assistance Plus – 24/7 roadside assistance, replacement for lost keys, flat tire service, fuel delivery, etc.', 15.99);
+INSERT INTO RENTALINSURANCEOPTION VALUES (5, 'Roadside Assistance Plus Â– 24/7 roadside assistance, replacement for lost keys, flat tire service, fuel delivery, etc.', 15.99);
 
 INSERT INTO FUELOPTION VALUES (1, 'Return with a full tank or on return, pay for gas that is missing');
 INSERT INTO FUELOPTION VALUES (2, 'Pay for full tank in advanced at time of rental, return car empty. No refund for unused gas.');
